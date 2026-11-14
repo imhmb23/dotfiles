@@ -1,5 +1,5 @@
 # ==============================================================================
-# ALACRITTY CONFIGURATION (TOML) - Catppuccin Mocha
+# ALACRITTY CONFIGURATION (TOML) - Dark Pastels
 # ==============================================================================
 
 [general]
@@ -8,7 +8,7 @@ working_directory = "C:/Users/HS TRADER/Desktop"
 
 # ------------------------------------------------------------------------------
 # WINDOW CONFIGURATION
-# --------------------------------------------------------------------- ---------
+# ------------------------------------------------------------------------------
 [window]
 dimensions = { columns = 100, lines = 28 }
 padding = { x = 10, y = 10 }
@@ -16,9 +16,9 @@ dynamic_padding = true
 dynamic_title = false
 decorations = "None"
 opacity = 1          # changed from 0.93; lower = more wallpaper visible
-blur = true             # no effect on Windows, harmless to keep
+blur = true          # no effect on Windows, harmless to keep
 startup_mode = "Windowed"
-title = "Alacritty Terminal"
+title = "alacritty"
 
 # ------------------------------------------------------------------------------
 # SHELL CONFIGURATION (WINDOWS POWERSHELL DEFAULT)
@@ -36,7 +36,7 @@ bold = { family = "BlexMono Nerd Font", style = "Bold" }
 italic = { family = "BlexMono Nerd Font", style = "Italic" }
 bold_italic = { family = "BlexMono Nerd Font", style = "Bold Italic" }
 
-size = 11.0
+size = 14.0
 offset = { x = 0, y = 2 }
 glyph_offset = { x = 0, y = 1 }
 
@@ -56,69 +56,79 @@ history = 10000
 multiplier = 3
 
 # ------------------------------------------------------------------------------
-# COLOR SCHEME (CATPPUCCIN MOCHA)
+# COLOR SCHEME (DARK PASTELS)
 # ------------------------------------------------------------------------------
 [colors.primary]
-background = "#1e1e2e"
-foreground = "#cdd6f4"
-dim_foreground = "#7f849c"
-bright_foreground = "#cdd6f4"
+background = "#2c2c2c"
+foreground = "#dcdccc"
+dim_foreground = "#dcdccc"
+bright_foreground = "#dcdccc"
 
 [colors.cursor]
-text = "#1e1e2e"
-cursor = "#f5e0dc"
+text = "#2c2c2c"
+cursor = "#dcdccc"
 
 [colors.vi_mode_cursor]
-text = "#1e1e2e"
-cursor = "#b4befe"
+text = "#2c2c2c"
+cursor = "#94bff3"
 
 [colors.selection]
-text = "#1e1e2e"
-background = "#f5e0dc"
+text = "#2c2c2c"
+background = "#dcdccc"
 
 [colors.search.matches]
-foreground = "#1e1e2e"
-background = "#a6adc8"
+foreground = "#2c2c2c"
+background = "#dcdccc"
 
 [colors.search.focused_match]
-foreground = "#1e1e2e"
-background = "#a6e3a1"
+foreground = "#2c2c2c"
+background = "#72d5a3"
 
 [colors.footer_bar]
-foreground = "#1e1e2e"
-background = "#a6adc8"
+foreground = "#2c2c2c"
+background = "#dcdccc"
 
 [colors.hints.start]
-foreground = "#1e1e2e"
-background = "#f9e2af"
+foreground = "#2c2c2c"
+background = "#f0dfaf"
 
 [colors.hints.end]
-foreground = "#1e1e2e"
-background = "#a6adc8"
+foreground = "#2c2c2c"
+background = "#dcdccc"
 
 [colors.line_indicator]
 foreground = "None"
 background = "None"
 
 [colors.normal]
-black   = "#45475a"
-red     = "#f38ba8"
-green   = "#a6e3a1"
-yellow  = "#f9e2af"
-blue    = "#89b4fa"
-magenta = "#f5c2e7"
-cyan    = "#94e2d5"
-white   = "#bac2de"
+black   = "#3f3f3f"
+red     = "#705050"
+green   = "#60b48a"
+yellow  = "#dfaf8f"
+blue    = "#9ab8d7"
+magenta = "#dc8cc3"
+cyan    = "#8cd0d3"
+white   = "#dcdccc"
 
 [colors.bright]
-black   = "#585b70"
-red     = "#f38ba8"
-green   = "#a6e3a1"
-yellow  = "#f9e2af"
-blue    = "#89b4fa"
-magenta = "#f5c2e7"
-cyan    = "#94e2d5"
-white   = "#a6adc8"
+black   = "#709080"
+red     = "#dca3a3"
+green   = "#72d5a3"
+yellow  = "#f0dfaf"
+blue    = "#94bff3"
+magenta = "#ec93d3"
+cyan    = "#93e0e3"
+white   = "#ffffff"
+
+[colors.dim]
+black   = "#343434"
+red     = "#664848"
+green   = "#57a37c"
+yellow  = "#aa856f"
+blue    = "#758da1"
+magenta = "#9a6289"
+cyan    = "#6b9fa1"
+white   = "#95958b"
 
 # ------------------------------------------------------------------------------
 # KEYBINDINGS

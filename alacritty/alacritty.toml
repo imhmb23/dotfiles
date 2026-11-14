@@ -4,20 +4,19 @@
 
 [general]
 live_config_reload = true
+working_directory = "C:/Users/HS TRADER/Desktop"
 
 # ------------------------------------------------------------------------------
 # WINDOW CONFIGURATION
-# ------------------------------------------------------------------------------
+# --------------------------------------------------------------------- ---------
 [window]
-# Compact starting size (increase/decrease columns & lines to taste)
 dimensions = { columns = 100, lines = 28 }
 padding = { x = 10, y = 10 }
 dynamic_padding = true
-dynamic_title = true
-decorations = "Full"
-opacity = 0.75
-
-blur = true
+dynamic_title = false
+decorations = "None"
+opacity = 1          # changed from 0.93; lower = more wallpaper visible
+blur = true             # no effect on Windows, harmless to keep
 startup_mode = "Windowed"
 title = "Alacritty Terminal"
 
@@ -25,19 +24,19 @@ title = "Alacritty Terminal"
 # SHELL CONFIGURATION (WINDOWS POWERSHELL DEFAULT)
 # ------------------------------------------------------------------------------
 [terminal.shell]
-program = "powershell.exe"
+program = "pwsh.exe"
 args = ["-NoLogo"]
 
 # ------------------------------------------------------------------------------
 # FONT CONFIGURATION
 # ------------------------------------------------------------------------------
 [font]
-normal = { family = "Consolas", style = "Regular" }
-bold = { family = "Consolas", style = "Bold" }
-italic = { family = "Consolas", style = "Italic" }
-bold_italic = { family = "Consolas", style = "Bold Italic" }
+normal = { family = "BlexMono Nerd Font", style = "Regular" }
+bold = { family = "BlexMono Nerd Font", style = "Bold" }
+italic = { family = "BlexMono Nerd Font", style = "Italic" }
+bold_italic = { family = "BlexMono Nerd Font", style = "Bold Italic" }
 
-size = 12.0
+size = 11.0
 offset = { x = 0, y = 2 }
 glyph_offset = { x = 0, y = 1 }
 

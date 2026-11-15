@@ -4,7 +4,7 @@
 
 [general]
 live_config_reload = true
-working_directory = "C:/Users/HS TRADER/Desktop"
+working_directory = "None"
 
 # ------------------------------------------------------------------------------
 # WINDOW CONFIGURATION
@@ -136,7 +136,7 @@ white   = "#95958b"
 [[keyboard.bindings]]
 key = "V"
 mods = "Control"
-action = "Paste"
+action = "Paste"   
 
 [[keyboard.bindings]]
 key = "C"

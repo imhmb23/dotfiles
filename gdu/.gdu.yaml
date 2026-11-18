@@ -1,4 +1,4 @@
-style:
+stayle:
     footer:
         text-color: '#000000'
         background-color: '#2479D0'
@@ -46,7 +46,7 @@ sequential-scanning: false
 show-apparent-size: false
 show-relative-size: false
 show-annexed-size: false
-show-item-count: false
+show-item-count: true
 show-mtime: false
 no-color: false
 mouse: false
